@@ -1,10 +1,11 @@
 # Digital Business Card
 
-This repository contains the code of responsive Digital Busines Card having sections of About, Interests & Social media accounts at footer of webpage.
+This repository contains the code of responsive Digital Business Card having sections of About, Interests & Social media accounts at footer of webpage.
 
 ## Preview
-
-![image](https://github.com/Mubassim-Khan/Digital-Business-Card-2/blob/main/src/assets/Preview.png)
+<div align="center">
+<img src="https://github.com/Mubassim-Khan/Digital-Business-Card-2/blob/main/src/assets/Preview.png" alt="image" align="center">
+</div>
 
 ## Features
 
