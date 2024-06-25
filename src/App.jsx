@@ -1,8 +1,8 @@
 import './App.css'
-import Info from './Components/Info'
-import About from './Components/About'
-import Interests from './Components/Interests'
-import Footer from './Components/Footer'
+import Info from './components/Info'
+import About from './components/About'
+import Interests from './components/Interests'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -10,7 +10,7 @@ export default function App() {
       <Info />
       <About />
       <Interests />
-      <Footer/>
+      <Footer />
     </>
   )
 }

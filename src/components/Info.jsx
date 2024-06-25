@@ -1,15 +1,13 @@
-import githubIcon from "../assets/icons8-github.png"
 import profile from "../assets/profile.jpg"
 
 export default function Info() {
   return (
     <>
       <div className="container">
-
         <div className="header">
           <img className="profile-img" src={profile} />
           <h1>Mubassim Ahmed Khan</h1>
-          <h4>Frontend Developer</h4>
+          <h4>Full Stack Developer</h4>
           <div className="button-section">
             {/* email */}
             <a href="mailto:mubassimkhan@gmail.com">
@@ -20,17 +18,15 @@ export default function Info() {
                 </svg>
                 <span>Email</span></button>
             </a>
-            {/* Github btn */}
+            {/* LinkedIn btn */}
             <a
-              href="https://www.github.com/Mubassim-Khan"
+              href="https://www.linkedin.com/in/mubassim"
               rel="noopener"
               target="_blank"
-              title="Github">
-              <button className="btn-github">
-
-                <svg xmlns="http://www.w3.org/2000/svg" height="16px" version="1.1" viewBox="0 0 16 16" width="16px"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-                <span>Github</span></button>
+              title="LinkedIn">
+              <button className="btn-linkedin">
+                <svg fill="#000000" viewBox="0 0 32 32" height="16px" width="160px" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>linkedin</title> <path d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z"></path> </g></svg>
+                <span>LinkedIn</span></button>
             </a>
           </div>
         </div>
