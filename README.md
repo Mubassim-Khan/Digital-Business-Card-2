@@ -67,6 +67,10 @@ npm run dev
 
 6. Feel free to modify the code and customize the page according to your preferences. You can update the content, change the colors, or add new features.
 
+## <a name="license">License</a>
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
 ## <a name="contributing">Contributing</a>
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
